@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+#main {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+#main div {
+    border: 1px solid red;
+}
+
+#head {
+    grid-column: span 2;
+}
+
+#head2 { 
+    grid-column: span 4;
+}
+
+#body1 {
+    grid-column: span 1;
+}
+
+#body2 {
+    grid-column: span 4;
+}
+
+#body3 {
+
+    grid-column: span 1;
+}
+
+#Leg {
+    grid-column: span 6;
+}

@@ -1,0 +1,24 @@
+.top {
+  text-align: center;
+  color: forestgreen;
+  font-style: italic;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+#test01 {
+  margin: auto;
+  border: 5px solid lightgreen;
+  width: 300px;
+  padding: 20px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
+
+#submit {
+  margin: auto;
+  text-align: center;
+}
+
+#detail {
+  font-size: large;
+}

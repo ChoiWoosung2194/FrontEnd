@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JOIN</title>
+  <link rel="stylesheet" href="http://172.30.1.3:5500/homepage/회원가입창.css">
+  </head>
+
+<body>
+  <form action="회원가입 제출">
+    <h1 class="top">NEIGHBOR</h1>
+    <hr>
+    <br>
+    <fieldset class="a">
+      <legend style="font-size: x-large; text-align: center;">필수 입력 사항</legend>
+      <table>
+        <tr>
+          <th>
+            아이디 :
+          </th>
+          <td>
+            <input type="text" size="30" placeholder="아이디">
+          </td>
+          <td>
+            @neighbor.com
+          </td>
+        </tr>
+        <tr>
+          <th>
+            비밀번호 :
+          </th>
+          <td colspan="2">
+            <input type="password" size="30" placeholder="영문, 숫자, 특수문자 포함 8글자 이상">
+          </td>
+        </tr>
+        <tr>
+          <th>
+            비밀번호 확인 :
+          </th>
+          <td colspan="2">
+            <input type="password" size="30" placeholder="비밀번호 확인">
+          </td>
+        </tr>
+        <tr>
+          <th>이메일 :</th>
+          <td>
+            <input type="text" size="30" placeholder="이메일">
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+    <br>
+    <hr>
+    <br>
+    <fieldset class="b">
+      <legend style="font-size: x-large; text-align: center;">추가 정보</legend>
+      이름 : <input type="text" placeholder="이름"> <br>
+      <br>
+      생년월일 : <input type="date"> <br>
+      <br>
+      통신사 선택 <select>
+        <option>SKT</option>
+        <option>KT</option>
+        <option>LGU+</option>
+      </select> <br>
+      <br>
+      전화번호 : <input type="text" placeholder="휴대전화번호">  <button aria-setsize="2">인증하기</button>
+      <br><br>
+      <table border="1">
+        <tr>
+          <th>남자 <input type="checkbox"></th>
+          <th>여자 <input type="checkbox"></th>
+        </tr>
+        <tr>
+          <th>내국인 <input type="checkbox" checked></th>
+          <th>외국인 <input type="checkbox"></th>
+        </tr>
+      </table>
+    </fieldset>
+    <br>
+    <hr>
+    <br>
+  </form>
+  <pre id="submit">
+  <input type="submit" value="회원가입">  <a href="http://172.30.1.3:5500/homepage/홈페이지.html"><input type="reset" value="돌아가기"></a>
+</pre>
+</body>
+
+</html>
